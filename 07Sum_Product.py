@@ -17,4 +17,4 @@ sum = integer1 + integer2
 product = integer1 * integer2
 print(sum)
 print(product)
-print('The sum of', integer1, '+', integer2, 'equals:', sum)
+print('The sum of', integer1, '+', integer2, 'equals:', sum, 'and the product of', integer1, '*', integer2, 'equals:', product)
