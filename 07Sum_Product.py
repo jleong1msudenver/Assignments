@@ -5,16 +5,18 @@
 # them on one line with messages identifying each calculated number.
 
 # [X] Input two integers from user
-# [ ] calculates sum and product of two numbers
-# [ ] print on one line with messages identifying calculated number.
+# [X] calculates sum and product of two numbers
+# [X] print on one line with messages identifying calculated number.
+# [X] refactor for less code
+# [X] All tasks complete WAHOO!
 
 # Capture input for first typed input
-integer1 = int(input("Enter an integer:"))
+int1 = int(input("Enter an integer:"))
 # Capture input from second typed input
-integer2 = int(input("Enter a second integer:"))
+int2 = int(input("Enter a second integer:"))
 # Add inputs together to equal sum
-sum = integer1 + integer2
-product = integer1 * integer2
-print(sum)
-print(product)
-print('The sum of', integer1, '+', integer2, 'equals:', sum, 'and the product of', integer1, '*', integer2, 'equals:', product)
+sum = int1 + int2
+# Multiply inputs together to equal product
+product = int1 * int2
+# Complete print statement on one line for both addition and multiplication
+print('The sum of', int1, '+', int2, '=', sum, 'and the product of', int1, '*', int2, '=', product)
