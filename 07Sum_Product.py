@@ -4,3 +4,6 @@
 # calculates the sum and product of the two umbers, and prints 
 # them on one line with messages identifying each calculated number.
 
+# [ ] Input two integers from user
+# [ ] calculates sum and product of two numbers
+# [ ] print on one line with messages idenfifying calculated number.
