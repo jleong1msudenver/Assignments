@@ -1,3 +1,7 @@
+# Josh Leong
+# Student ID: 901021728
+# jleong1@msudenver.edu
+
 # Take a string as input for a name and a string for course number and outputs a welcome message.
 # For example: if the input name is “Jane” and the course name is “CS 1030”, the output is: “Welcome, Jane, to course CS 1030!” 
 
