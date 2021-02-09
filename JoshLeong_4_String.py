@@ -8,9 +8,9 @@
 # Capture input for name of student that is assigned to variable student_name
 student_name = str(input("What is your name?"))
 # Capture input for course number that is assigned to variable course_number
-course_number = int(input("Enter your Course Number:"))
+course_name = str(input("Enter your Course Name:"))
 # Full print statement with input variables in correct places of sentence
-print("Welcome", student_name, "to course", "CS", course_number,"!")
+print("Welcome", student_name, "to course", course_name,"!")
 
 # 2nd Assignment
 # Take a string as input, say input_string, then print the first 2 and the last 2 characters in the string. 
