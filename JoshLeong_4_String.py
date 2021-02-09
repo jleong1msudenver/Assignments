@@ -6,6 +6,9 @@
 #   “The first 2 characters are: ”the first 2
 #   “The last  2 characters are: ” the last 2
 
+# Capture input for name of student that is assigned to variable student_name
 student_name = str(input("What is your name?"))
+# Capture input for course number that is assigned to variable course_number
 course_number = int(input("Enter your Course Number:"))
+# Full print statement with input variables in correct places of sentence
 print("Welcome", student_name, "to course", "CS", course_number,"!")
