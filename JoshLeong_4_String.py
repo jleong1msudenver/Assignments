@@ -5,3 +5,7 @@
 #  Assume the input string is 2 or more characters. The print should look like:
 #   “The first 2 characters are: ”the first 2
 #   “The last  2 characters are: ” the last 2
+
+student_name = str(input("What is your name?"))
+course_number = int(input("Enter your Course Number:"))
+print("Welcome", student_name, "to course", "CS", course_number,"!")
