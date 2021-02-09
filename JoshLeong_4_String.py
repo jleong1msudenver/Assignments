@@ -14,4 +14,12 @@
 #  "The first 2 characters are: "the first 2
 #  "The last  2 characters are: "the last 2
 input_string = str(input("Give a string here:"))
-first2_char = input_string
+# Assign variable to sliced string from input starting at 0 position to position 2 
+# so we get the first two letters only
+first2_char = input_string[0:2]
+# Add print statement with variable first2_char replaced with input
+print("The first 2 characters are: ", first2_char)
+# Assign variable to sliced string from input working backwards from end -2 times
+last2_char = input_string[-2:]
+# Add print statement with variable last2_char replaced with input
+print("The last 2 characters are: ", last2_char)
